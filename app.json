@@ -54,9 +54,7 @@
           ]
         }
       ],
-      "@clerk/expo",
-      "expo-secure-store",
-      "expo-web-browser"
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
