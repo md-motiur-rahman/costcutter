@@ -1,0 +1,68 @@
+[
+  {
+    "event": "user_signed_up",
+    "description": "User successfully completed sign-up and email verification",
+    "file": "app/(auth)/sign-up.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "user_signed_in",
+    "description": "User successfully signed in with email and password or email code",
+    "file": "app/(auth)/sign-in.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "sign_in_failed",
+    "description": "Sign-in attempt failed due to an error",
+    "file": "app/(auth)/sign-in.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "sign_up_failed",
+    "description": "Sign-up attempt failed due to an error",
+    "file": "app/(auth)/sign-up.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "email_verification_submitted",
+    "description": "User submitted email verification code during sign-up",
+    "file": "app/(auth)/sign-up.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "sign_in_verification_submitted",
+    "description": "User submitted email verification code during sign-in MFA step",
+    "file": "app/(auth)/sign-in.tsx",
+    "status": "new"
+  },
+  {
+    "event": "user_signed_out",
+    "description": "User signed out from the Settings screen",
+    "file": "app/(tabs)/settings.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "subscription_card_expanded",
+    "description": "User expanded a subscription card to view details on the home screen",
+    "file": "app/(tabs)/index.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "subscription_detail_viewed",
+    "description": "User viewed the detail page of a specific subscription",
+    "file": "app/subscriptions/[id].tsx",
+    "status": "existing"
+  },
+  {
+    "event": "insights_tab_viewed",
+    "description": "User navigated to the Insights tab",
+    "file": "app/(tabs)/insights.tsx",
+    "status": "existing"
+  },
+  {
+    "event": "subscriptions_tab_viewed",
+    "description": "User navigated to the Subscriptions tab",
+    "file": "app/(tabs)/subscriptions.tsx",
+    "status": "new"
+  }
+]
