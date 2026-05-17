@@ -1,16 +1,5 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { Link } from 'expo-router';
+import { AuthView } from "@clerk/expo/native";
 
-const SignUp = () => {
-  return (
-    <View>
-      <Text>SignUp</Text>
-      <Link href="/(auth)/sign-in" className="mt-4 rounded bg-primary text-white px-4 py-2">
-        Sign In
-      </Link>
-    </View>
-  )
+export default function SignUpScreen() {
+  return <AuthView mode="signUp" />;
 }
-
-export default SignUp
